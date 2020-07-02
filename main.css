@@ -1,0 +1,25 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 80px;
+    line-height:100px;
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 100px;
+}
+
+div {
+    font-weight: 100;
+    /* transform: scale(0.2) */
+    transition: transform 0.2;
+}
